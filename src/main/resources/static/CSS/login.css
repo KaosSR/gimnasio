@@ -1,0 +1,38 @@
+body {
+    background-image: url("/IMAGENES/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+
+}
+.inicio {
+    text-align:center;
+    color:Red;
+    font-family:Times New Roman;
+    padding:40px;
+}
+
+centro {
+    justify-content: center;
+    padding:20px;
+}
+button {
+    box-shadow: 0 9px #999;
+    margin: 15px;
+    border:none;
+    outline:none;
+}
+button:hover {background-color: #638EF0}
+button:active {
+    background-color: #638EF0;
+    box-shadow:0 5px #666;
+    transform: translateY(4px);
+    border:none;
+    margin: 15px;
+    outline:none;
+}
+.adorno {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+}

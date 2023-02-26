@@ -1,0 +1,61 @@
+body {
+    background-image: url("/IMAGENES/fondo.jpg");
+    background-size: cover;
+}
+section {
+    display: -webkit-flex;
+    display: flex;
+    padding:0px;
+}
+ul {
+    padding:0;
+}
+h3 {
+    padding:0;
+    text-decoration:underline;
+    font-family:"Times New Roman";
+}
+footer {
+    text-align:center;
+
+}
+
+div {
+    padding:10px;
+    display:flex;
+    justify-content:center;
+
+}
+.imagen {
+    margin-right:200px;
+    margin-left:0px;
+}
+.drow {
+
+}
+.imgcarousel {
+    padding:0px;
+}
+.borde {
+    border-top:3px solid red;
+    border-bottom:3px solid red;
+}
+.imgdir{
+    display:flex;
+    float:right;
+}
+.divmargin{
+    margin-top:30px;
+}
+centro {
+    justify-content: center;
+    padding:20px;
+}
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.adorno {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+}
