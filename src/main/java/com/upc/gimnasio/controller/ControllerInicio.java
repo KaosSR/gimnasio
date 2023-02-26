@@ -26,7 +26,7 @@ public class ControllerInicio {
     }
     @GetMapping("definicionPlan")
     public String definicionPlan(){
-        return "definicion_plan";
+        return "definicion";
     }
 
 }
