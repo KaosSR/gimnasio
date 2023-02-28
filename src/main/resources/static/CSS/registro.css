@@ -93,3 +93,23 @@ p {
     position:absolute;
     right:0px;
 }
+.centro {
+ display:flex;
+ align-items:center;
+}
+.borde-left{
+    border-left:4px solid #ADD2F9;
+}
+.margen-top{
+    margin-top:50px;
+    margin-bottom:50px;
+    font-family:Times New Roman;
+    font-size:17px;
+}
+.margen-horizontal{
+    border-top:3px solid #ADD2F9;
+    border-bottom:3px solid #ADD2F9;
+}
+h5{
+    border-left:5px inset #ADD2F9;
+}
