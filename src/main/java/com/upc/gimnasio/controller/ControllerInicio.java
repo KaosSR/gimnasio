@@ -28,5 +28,9 @@ public class ControllerInicio {
     public String definicionPlan(){
         return "definicion";
     }
+    @GetMapping("cardio")
+    public String cardio(){
+        return "cardiovascular";
+    }
 
 }
