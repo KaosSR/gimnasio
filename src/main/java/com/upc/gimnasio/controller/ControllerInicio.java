@@ -32,5 +32,9 @@ public class ControllerInicio {
     public String cardio(){
         return "cardiovascular";
     }
+    @GetMapping("entrenamiento")
+    public String entrenamiento(){
+        return "menu_entrenamiento";
+    }
 
 }
